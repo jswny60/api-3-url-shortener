@@ -1,0 +1,19 @@
+{
+  "name": "api-3-url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener for freecodecamp.org",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "postinstall": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "typescript": "^2.8.3"
+  }
+}
